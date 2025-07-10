@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | ZeroOps</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="images/logo.png" alt="ZeroOps Logo" class="logo" />
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+      <button class="theme-toggle" id="themeToggle">🌓</button>
+    </nav>
+  </header>
+
+  <section class="contact-page">
+    <h2>Let’s Work Together</h2>
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form" action="https://formsubmit.co/sms9960515873@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <input type="hidden" name="_subject" value="New Contact Request from ZeroOps" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <button class="btn-primary" type="submit">Send Message</button>
+      </form>
+
+      <!-- Address Section -->
+      <div class="contact-address">
+        <h3>Our Offices</h3>
+        <p><strong>USA (HQ)</strong><br />
+        8201 164th Ave NE, Suite 200<br />
+        Redmond, WA 98052<br />
+        <a href="mailto:info@zeroops.com">info@zeroops.com</a></p>
+
+        <p><strong>India (Offshore)</strong><br />
+        1105 Vasavi Sky City, Gachibowli<br />
+        Hyderabad, Telangana - 500081<br />
+        <a href="mailto:hr@zeroops.in">hr@zeroops.in</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 ZeroOps. All rights reserved.</p>
+  </footer>
+
+  <script src="script/main.js"></script>
+</body>
+</html>

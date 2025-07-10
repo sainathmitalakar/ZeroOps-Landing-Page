@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZeroOps | Cloud DevOps Solutions</title>
-    <link rel="stylesheet" href="style/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZeroOps | Home</title>
+  <link rel="stylesheet" href="style/style.css"/>
 </head>
 <body>
-    <header class="navbar">
-        <img src="assets/logo.png" alt="ZeroOps Logo" class="logo" />
-        <nav class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="navbar">
+    <img src="assets/logo.png" class="logo" alt="ZeroOps Logo">
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+  </header>
 
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h1>Welcome to ZeroOps</h1>
-            <p>Your One-Stop DevOps & Cloud Engineering Partner</p>
-            <p>Empowering digital innovation through automated, scalable, and secure infrastructure.
-We are a next-generation IT startup transforming DevOps into a strategic advantage.
-From cloud architecture to continuous delivery — we build systems that scale with your ambition.
-            </p>
-            <a href="#contact" class="btn-primary">Get Started</a>
-        </div>
-        <div class="hero-image">
-            <img src="assets/hero.jpg" alt="Hero Image" />
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to ZeroOps</h1>
+      <p>Your Next-Gen DevOps & AI Partner for Scalable Digital Transformation.
 
-    <section id="about" class="about-section">
-        <h2>Who We Are</h2>
-        <p>ZeroOps is a modern DevOps & Cloud Engineering agency dedicated to simplifying infrastructure, maximizing uptime, and automating deployment pipelines for scale-ready startups and enterprises.
+We help modern businesses accelerate their cloud journey with intelligent automation, streamlined DevOps pipelines, and AI-powered solutions. From infrastructure design to continuous deployment, ZeroOps delivers scalable, secure, and smart digital ecosystems that empower innovation and growth. Our mission is to bridge the gap between development, operations, and intelligence helping you move faster, safer, and smarter</p>
+      <a href="contact.html" class="btn-primary">Get in Touch</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/hero.jpg" alt="Hero Image">
+    </div>
+  </section>
 
-We are a new-age IT startup driven by a passion for operational excellence and engineering innovation.
-Our mission is to bridge the gap between development and operations through intelligent automation, cloud-native solutions, and industry-best practices.
+  <!-- Mission Section (Cards) -->
+  <section class="mission-section">
+    <h2>Our Vision & Values</h2>
+    <div class="mission-cards">
+      <div class="mission-card">
+        <img src="images/mission1.png" alt="Mission Image 1"/>
+        <h3>Our Mission</h3>
+        <p>Delivering impact through innovation, alignment, and technology excellence.</p>
+      </div>
+      <div class="mission-card">
+        <img src="images/mission2.png" alt="Passion"/>
+        <h3>Passion</h3>
+        <p>The drive to lead and create with unmatched zeal fuels our every move.</p>
+      </div>
+      <div class="mission-card">
+        <img src="images/mission3.png" alt="Technology"/>
+        <h3>Technology</h3>
+        <p>We create ongoing value through innovation and smarter business outcomes.</p>
+      </div>
+      <div class="mission-card">
+        <img src="images/mission4.png" alt="Core Values"/>
+        <h3>Core Values</h3>
+        <p>From honesty to growth, our values guide how we build, serve, and deliver.</p>
+      </div>
+      <div class="mission-card">
+        <img src="images/mission5.png" alt="Ethics"/>
+        <h3>Ethics</h3>
+        <p>We uphold clear ethical standards to earn and maintain trust consistently.</p>
+      </div>
+    </div>
+  </section>
 
-With a core team of certified engineers and architects, we deliver high-availability environments, CI/CD pipelines, and end-to-end observability that empower businesses to move faster, safer, and smarter.</p>
-    </section>
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"ZeroOps transformed our delivery pipeline and improved our release confidence drastically."</p>
+        <h4>- Anika Sharma, CTO @ HealthX</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Their AI solutions are brilliant. We saw massive productivity boosts."</p>
+        <h4>- Raj Mehra, VP Engineering @ FinCore</h4>
+      </div>
+    </div>
+  </section>
 
-    <section id="services" class="services-section">
-        <h2>Our Services</h2>
-        <div class="service-cards">
-            <div class="card">
-                <h3>Cloud Infrastructure</h3>
-                <p>We architect and operate scalable, secure cloud environments on AWS, Azure, and GCP.  
-Our solutions are designed for resilience, cost-efficiency, and future growth—so your business is always ready to scale.</p>
-            </div>
-            <div class="card">
-                <h3>CI/CD Automation</h3>
-                <p> From code to production in minutes—not hours.  
-We build zero-touch, secure CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI to accelerate your development lifecycle and reduce release risks.</p>
-            </div>
-            <div class="card">
-                <h3>Monitoring & Observability</h3>
-                <p>We implement full-stack observability with Prometheus, Grafana, Loki, and more.  
-Our monitoring frameworks give you real-time insights, alerting, and root-cause diagnostics to keep your systems healthy and customers happy.</p>
-            </div>
-        </div>
-    </section>
+  <!-- Carousel -->
+  <section class="quote-carousel">
+  <div class="quote-wrapper">
+    <blockquote>
+      “To succeed in your mission, you must have single-minded devotion to your goal. Confidence and hard work is the best medicine to kill the disease called failure. It will make you a successful person. 
+      Dream, Dream, Dream. Dreams transform into thoughts and thoughts result in action.”
+    </blockquote>
+    <p class="quote-author">— Dr. A.P.J. Abdul Kalam</p>
+  </div>
+</section>
 
-    <section id="contact" class="contact-section">
-        <h2>Let's Work Together</h2>
-        <form action="https://formsubmit.co/sms9960515873@gmail.com" method="POST" class="contact-form">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_subject" value="New Contact Form Submission!">
-  <input type="hidden" name="_template" value="table">
-  <button type="submit" class="btn-primary">Send Message</button>
-</form>
+  <!-- Blog Section -->
+  <section class="blog">
+    <h2>Latest Insights</h2>
+    <div class="blog-cards">
+      <div class="blog-card">
+        <h3>How DevOps Helps Startups</h3>
+        <p>Explore how early DevOps adoption accelerates growth and innovation.</p>
+      </div>
+      <div class="blog-card">
+        <h3>Using AI to Optimize Cloud</h3>
+        <p>Learn how AI automation enhances efficiency and cost savings.</p>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 ZeroOps. All rights reserved.</p>
+  </footer>
 
-    <footer class="footer">
-        <p>&copy; 2025 ZeroOps. All rights reserved.</p>
-    </footer>
-
-    <script src="script/main.js"></script>
+  <script src="script/main.js"></script>
 </body>
 </html>
