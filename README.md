@@ -1,7 +1,7 @@
 # ZeroOps-Landing-Page
-🚀 Professional landing page for ZeroOps — a next-gen DevOps &amp; Cloud Engineering startup. Built with HTML, CSS, and JavaScript for a sleek, responsive, and modern design.
-🚀 Project Type: Static Web Application | Tech Stack: HTML, CSS, JavaScript
-🌐 Repository: ZeroOps-Landing-Page
+Professional landing page for ZeroOps — a next-gen DevOps &amp; Cloud Engineering startup. Built with HTML, CSS, and JavaScript for a sleek, responsive, and modern design.
+Project Type: Static Web Application | Tech Stack: HTML, CSS, JavaScript
+Repository: ZeroOps-Landing-Page
 
 Built a sleek, responsive, and high-performance landing page for ZeroOps, a next-gen DevOps & Cloud Engineering startup. This professional-grade page was crafted to reflect the cutting-edge nature of the brand, providing a strong digital identity and first impression.
 
